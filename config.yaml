@@ -15,25 +15,65 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
+  - id: www-rseco-org # unique identifier
+    name: www
     description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
+    url: 'https://www.rseco.org/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
+  - id: hk1-rseco-org
+    name: hk1
     description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+    url: 'https://hk1.rseco.org'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+  - id: hk2-rseco-org
+    name: hk2
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://hk2.rseco.org'
     method: GET
     expectStatus: 200
+    linkable: true # allows the title to be a link, default=true
+
+  - id: lax-rseco-org
+    name: lax
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://lax.rseco.org'
+    method: GET
+    expectStatus: 200
+
+  - id: lax2-rseco-org
+    name: lax2
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://lax2.rseco.org'
+    method: GET
+    expectStatus: 200
+
+  - id: ai-rseco-org
+    name: ai
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://ai.rseco.org'
+    method: GET
+    expectStatus: 200
+
+  - id: gpt4-rseco-org
+    name: gpt4
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://gpt4.rseco.org'
+    method: GET
+    expectStatus: 200
+
+  - id: chat-rseco-org
+    name: chat
+    description: 'Built for anything connected to the Internet.'
+    url: 'https://chat.rseco.org'
+    method: GET
+    expectStatus: 200
+
+
+
