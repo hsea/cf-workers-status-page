@@ -30,7 +30,7 @@ monitors:
     url: 'https://hk1.rseco.org'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+    linkable: false # allows the title to be a link, default=true
 
   - id: hk2-rseco-org
     name: hk2
@@ -38,7 +38,7 @@ monitors:
     url: 'https://hk2.rseco.org'
     method: GET
     expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
+    linkable: false # allows the title to be a link, default=true
 
   - id: lax-rseco-org
     name: lax
@@ -46,6 +46,7 @@ monitors:
     url: 'https://lax.rseco.org'
     method: GET
     expectStatus: 200
+    linkable: false # allows the title to be a link, default=true
 
   - id: lax2-rseco-org
     name: lax2
@@ -53,27 +54,8 @@ monitors:
     url: 'https://lax2.rseco.org'
     method: GET
     expectStatus: 200
+    linkable: false # allows the title to be a link, default=true
 
-  - id: ai-rseco-org
-    name: ai
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://ai.rseco.org'
-    method: GET
-    expectStatus: 200
-
-  - id: gpt4-rseco-org
-    name: gpt4
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://gpt4.rseco.org'
-    method: GET
-    expectStatus: 200
-
-  - id: chat-rseco-org
-    name: chat
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://chat.rseco.org'
-    method: GET
-    expectStatus: 200
 
 
 
